@@ -1,3 +1,125 @@
-.myDiv{
-border:1px solid #000;
+.row{
+  margin: 0;
+}
+#myNav{
+  margin-bottom: 0;
+  border:none;
+  border-radius: nano;
+  background-color: #003459;
+}
+#navbar ul li a {
+  color:#fff;
+  font-size: 16px;
+}
+#navbar ul li a:hover {
+  background: #fff;
+  color:#00A8E8;
+
+}
+
+#mainCarousel{
+
+}
+#services{
+  height: 610px;
+  background-color: #00A8E8;
+  color:white;
+}
+#services div {
+  margin-top:30px;
+}
+#services div h1{
+  font-size: 70px;
+}
+#serviceSection{
+
+
+}
+#serviceSection span.fa{
+  font-size: 120px;
+  display: block;
+  text-align: center;
+  padding-top:30px;
+}
+#serviceSection p {
+  margin-top:20px;
+}
+#footer{
+  height: 610px;
+  background-color:#00171F;
+  color:#fff;
+}
+#footer iframe{
+  height: 360px;
+  width:100%;
+}
+#footerSection{
+  height: 250px;
+  padding:20px;
+  background-color:#00171F;
+}
+#footer #footerSection:nth-child(3){
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  background-color:#00171F;
+}
+#footerSection ul {
+  list-style:none;
+  padding-top:50px;
+}
+#footerSection ul li {
+  font-size:25px;
+}
+/*Study section begin*/
+#studySection{
+    margin-top:80px;
+    margin-bottom: 80px;
+}
+#studySection div:nth-child(1),
+#studySection div:nth-child(2){
+  margin-bottom: 30px;
+}
+#studySection div:nth-child(1) img{
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+#studySection div:nth-child(2) img{
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+/*Study section end*/
+#langCourseText{
+  /*border: 1px solid #000;*/
+  margin-top:80px;
+}
+#langCourseImg{
+  /*border: 1px solid #000;*/
+  margin-top:80px;
+}
+#ITcourseSection{
+
+  margin-top:50px;
+}
+#courseITImg{
+  height: 250px;
+  /*border: 1px solid #000;*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#courseITImg img{
+  margin:0 auto;
+}
+#courseITText{
+  height: 250px;
+  /*border: 1px solid #000;*/
+}
+#courseITText:last-child{
+  margin-bottom:30px;
+}
+#ITcourseSection div.col-md-12 h1{
+  margin-bottom: 50px;
+  font-size: 36px;
+}
+.courseCarouselImg{
+  border-radius: 150px;
 }
